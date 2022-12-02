@@ -97,7 +97,7 @@ export default function ContainerExample() {
           </div>
         </div>
       </div>
-      <a href="https://github.com/66Meg20/weather-react" target="_blank">
+      <a href="https://github.com/66Meg20/weather-react">
         {" "}
         Open source code by, Megan Jackson{" "}
       </a>
