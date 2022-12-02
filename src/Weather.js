@@ -2,7 +2,7 @@ import "./Weather.css";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-
+import Icon from "./Icon.js";
 export default function ContainerExample() {
   let weahtherData = {
     city: "New York",
@@ -71,8 +71,29 @@ export default function ContainerExample() {
             <div className="Forecast">
               <Row>
                 <Col>
-                  Monday Tuesday Wednesday Thursday Friday Saturday Sunday
+                  Monday
+                  <Icon icon="PARTLY_CLOUDY_DAY" color="white" />
                 </Col>
+                <Col>
+                  Tuesday
+                  <Icon icon="RAIN" color="white" />
+                </Col>
+                <Col>
+                  Wednesday
+                  <Icon icon="CLOUDY" color="white" />
+                </Col>{" "}
+                <Col>
+                  Thursday
+                  <Icon icon="SNOW" color="white" />
+                </Col>
+                <Col>
+                  Friday
+                  <Icon icon="SLEET" color="white" />
+                </Col>{" "}
+                <Col>
+                  Saturday
+                  <Icon icon="CLEAR_DAY" color="white" />
+                </Col>{" "}
               </Row>
             </div>
           </div>
