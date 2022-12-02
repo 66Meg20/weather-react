@@ -25,7 +25,7 @@ export default function ContainerExample() {
                   <input
                     type="search"
                     placeholder="Search City"
-                    class="form-control"
+                    className="form-control"
                     autoComplete="off"
                   />{" "}
                 </Col>
@@ -43,15 +43,13 @@ export default function ContainerExample() {
             <div className="overview">
               <h1> {weahtherData.city}</h1>
               <ul>
-                <li>
-                  last updated: {weahtherData.date}
-                  <li> {weahtherData.description} </li>
-                </li>
+                <li>last updated: {weahtherData.date}</li>
+                <li> {weahtherData.description} </li>
               </ul>
             </div>
             <Row>
               <Col xs="6">
-                <div class="d-flex weather-temperature">
+                <div className="d-flex weather-temperature">
                   <img
                     src="https://ssl.gstatic.com/onebox/weather/48/cloudy.png"
                     alt="{weatherData.description}"
@@ -99,6 +97,10 @@ export default function ContainerExample() {
           </div>
         </div>
       </div>
+      <a href="https://github.com/66Meg20/weather-react" target="_blank">
+        {" "}
+        Open source code by, Megan Jackson{" "}
+      </a>
     </Container>
   );
 }
